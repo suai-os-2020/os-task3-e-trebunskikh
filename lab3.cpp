@@ -619,32 +619,32 @@ int lab3_init()
 		}
 	}
 
-	hIntC = CreateSemaphore(NULL, 0, 2, NULL);
-	hContC = CreateSemaphore(NULL, 0, 2, NULL);
-	hIntF = CreateSemaphore(NULL, 0, 2, NULL);
-	hContF = CreateSemaphore(NULL, 0, 2, NULL);
-	hIntF2 = CreateSemaphore(NULL, 0, 2, NULL);
-	hContF2 = CreateSemaphore(NULL, 0, 2, NULL);
-	hIntG = CreateSemaphore(NULL, 0, 2, NULL);
-	hContG = CreateSemaphore(NULL, 0, 2, NULL);
-	hIntG2 = CreateSemaphore(NULL, 0, 2, NULL);
-	hContG2 = CreateSemaphore(NULL, 0, 2, NULL);
-	hIntG3 = CreateSemaphore(NULL, 0, 2, NULL);
-	hContG3 = CreateSemaphore(NULL, 0, 2, NULL);
-	hIntG4 = CreateSemaphore(NULL, 0, 2, NULL);
-	hContG4 = CreateSemaphore(NULL, 0, 2, NULL);
-	hIntE = CreateSemaphore(NULL, 0, 2, NULL);
-	hContE = CreateSemaphore(NULL, 0, 2, NULL);
-	hIntE2 = CreateSemaphore(NULL, 0, 2, NULL);
-	hContE2 = CreateSemaphore(NULL, 0, 2, NULL);
-	hIntR = CreateSemaphore(NULL, 0, 2, NULL);
-	hContR = CreateSemaphore(NULL, 0, 2, NULL);
-	hIntM = CreateSemaphore(NULL, 0, 2, NULL);
-	hContM = CreateSemaphore(NULL, 0, 2, NULL);
-	hIntN = CreateSemaphore(NULL, 0, 2, NULL);
-	hContN = CreateSemaphore(NULL, 0, 2, NULL);
-	hIntN2 = CreateSemaphore(NULL, 0, 2, NULL);
-	hContN2 = CreateSemaphore(NULL, 0, 2, NULL);
+	hIntC = CreateSemaphore(NULL, 0, 1, NULL);
+	hContC = CreateSemaphore(NULL, 0, 1, NULL);
+	hIntF = CreateSemaphore(NULL, 0, 1, NULL);
+	hContF = CreateSemaphore(NULL, 0, 1, NULL);
+	hIntF2 = CreateSemaphore(NULL, 0, 1, NULL);
+	hContF2 = CreateSemaphore(NULL, 0, 1, NULL);
+	hIntG = CreateSemaphore(NULL, 0, 1, NULL);
+	hContG = CreateSemaphore(NULL, 0, 1, NULL);
+	hIntG2 = CreateSemaphore(NULL, 0, 1, NULL);
+	hContG2 = CreateSemaphore(NULL, 0, 1, NULL);
+	hIntG3 = CreateSemaphore(NULL, 0, 1, NULL);
+	hContG3 = CreateSemaphore(NULL, 0, 1, NULL);
+	hIntG4 = CreateSemaphore(NULL, 0, 1, NULL);
+	hContG4 = CreateSemaphore(NULL, 0, 1, NULL);
+	hIntE = CreateSemaphore(NULL, 0, 1, NULL);
+	hContE = CreateSemaphore(NULL, 0, 1, NULL);
+	hIntE2 = CreateSemaphore(NULL, 0, 1, NULL);
+	hContE2 = CreateSemaphore(NULL, 0, 1, NULL);
+	hIntR = CreateSemaphore(NULL, 0, 1, NULL);
+	hContR = CreateSemaphore(NULL, 0, 1, NULL);
+	hIntM = CreateSemaphore(NULL, 0, 1, NULL);
+	hContM = CreateSemaphore(NULL, 0, 1, NULL);
+	hIntN = CreateSemaphore(NULL, 0, 1, NULL);
+	hContN = CreateSemaphore(NULL, 0, 1, NULL);
+	hIntN2 = CreateSemaphore(NULL, 0, 1, NULL);
+	hContN2 = CreateSemaphore(NULL, 0, 1, NULL);
 
 	// start A
 	hThread[0] = CreateThread(NULL, 0, thread_a, NULL, 0, &ThreadID);
